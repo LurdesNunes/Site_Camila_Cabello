@@ -1,0 +1,60 @@
+@media(max-width:580px) {
+    header {
+        flex-direction: column;
+    }
+
+    header a{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    .slideshow{
+        background: none;
+        height: auto;
+    }
+
+    .slideshow h2 {
+        width: 80%;
+        font-size: 30px;
+    }
+
+    .seta img {
+        visibility: hidden;
+    }
+
+    .container .sobre{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .container .sobre p{
+        text-align:center;
+    }
+
+    .container .links{
+        text-align: center;
+    }
+
+    .container .links p{
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    .card img {
+        width: 30%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}

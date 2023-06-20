@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    
+}
+
+header a{
+    font-size: 33px;
+    color: rebeccapurple;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Tangerine', serif;
+        font-size: 50px;
+}
+
+body {
+    font-family: 'Tangerine', serif;
+    font-size: 34px;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rebeccapurple;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.slideshow{
+    background-image: url("../img/camila_cabello_capa.webp");
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow-index {
+    background-image: url("../img/camila_cabello_capa.webp");
+}
+
+.slideshow h2 {
+    text-align: center;
+    width: 50%;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rebeccapurple;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: 'Tangerine', serif;
+        font-size: 48px;;
+}
+
+.seta img {
+    position: fixed;
+    top: 610px;
+    right: 50px;
+    width: 20px;
+    z-index: 10;
+}
+
+.container {
+    width: 70%;
+    margin: 30px auto;
+
+}
+
+.container h3 {
+    margin: 20px 0;
+}
+
+.container p {
+    line-height: 30px;
+    text-align: justify;
+}
+
+.container .sobre{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.container .sobre .img-index img{
+    border-radius: 100px;
+    margin: 0px 60px;
+    box-shadow: -5px 0 rebeccapurple, 0 5px rebeccapurple, 5px 0 rebeccapurple, 0 -5px rebeccapurple;
+    width: 250px;
+    height: auto;
+}
+
+.container .sobre .img-sobre img{
+    border-radius: 100px;
+    margin: 0px 60px;
+    box-shadow: -5px 0 rebeccapurple, 0 5px rebeccapurple, 5px 0 rebeccapurple, 0 -5px rebeccapurple;
+    width: 250px;
+    height: auto;
+}
+
+.container .sobre .text button {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rebeccapurple;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 15px;
+    border: 1px solid black;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: 'Tangerine', serif;
+        font-size: 29px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.card {
+    width: 30%;
+    border: 1px solid black;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 50%;
+}
+
+.card p {
+    text-align: center;
+}
+
+button{
+    width: auto;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    background: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border: 1px solid black;
+    color: white;
+    
+}
+
+footer {
+    margin-top: 50px;
+    padding: 25px 50px;
+    background-color: rebeccapurple;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border: 1px solid black;
+    color: white;
+    font-family: 'Tangerine', serif;
+        font-size: 28px;
+}
